@@ -1,0 +1,306 @@
+/* :root {
+    --primarycolor: orange;
+    --montext: blue;
+ } */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    /* font-weight: 700; */
+    font-style: normal;
+}
+
+body{
+    padding: 20px 200px ;
+    background-color: #8F6994;
+}
+
+/* header */
+
+header .logo{
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .logo span{
+    color: #ae118f;
+}
+
+header nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    bottom: 30px;
+    margin-right: 10px;
+    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover{
+    color: #F6DF99;
+    
+}
+/* accueil */
+
+#accueil .container .c1 h1{
+    color: #ae118f;
+}
+
+.container .c1 p{
+    padding-bottom: 50px;
+    
+}
+
+.container .img a img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+.container .c1 .click a img {
+    width: 50px;
+    height: 30px;
+    padding-left: 50px;
+    margin-top: 60px;
+    align-items: center;
+}
+.c1 .click{
+    padding-top: 30px;
+}
+
+#accueil .container .click{
+    display: inline-block;
+}
+
+#accueil .container .click .btn2{
+    padding-top: 200px;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+
+
+/* apropos */
+
+#apropos .box .preform h1{
+    font-size: 32px;
+}
+
+#apropos .box .preform img{
+  height: 450px;
+  width: 360px;
+}
+
+#apropos .box{
+    display: flex;
+}
+
+#apropos .box .preform{
+    margin-top: 150px; 
+}
+
+#apropos .box .form{
+    margin-top: 290px; 
+
+}
+#apropos .box .form h2{
+    padding-bottom: 5px;
+    color: #ae118f;
+}
+
+#apropos .box .form p{
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+#apropos .form form label{
+    font-weight: bold;
+    font-family: "Playwrite NL", cursive;
+}
+
+#apropos .form form input{
+    border-radius: 8px;
+    border-color: white;
+}
+
+#apropos .list h2{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#apropos .list p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#apropos .list ul{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#apropos .list ul li{
+   list-style: none;
+   display: inline-block;
+   padding-right: 15px;
+   font-size: 20px;
+   font-weight: bold;
+   color: #ae118f;
+}
+
+#apropos .list .lienAP{
+    margin-top: 30px;
+}
+
+#apropos .list .lienAP a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#apropos .list .lienAP a:hover{
+   color: #F6DF99;
+}
+
+
+
+/* travail */
+
+#travail .travail .h1{
+    margin-top: 100px;
+    font-size: 26px;
+}
+
+#travail .h1 img{
+   padding-bottom: 40px;
+}
+
+#travail .text h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #ae118f;
+}
+
+#travail .h4p{
+    display: flex;
+    margin-bottom: 30px;
+} 
+
+#travail .h4p .wrap1, .wrap2{
+    margin-right:20px ;
+    padding-left: 5px;
+    background-color: #dab7d3;
+    border-radius: 10px;
+}
+
+#travail .travail a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#travail .travail a:hover{
+    color: #F6DF99;
+}
+
+
+/* CV */
+
+#cv h1{
+    padding-top: 60px;
+    font-size: 26px;
+}
+
+#cv a:hover{
+    color: #F6DF99;
+}
+
+/* contact */
+
+
+#contact h1{
+    padding-top: 60px;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+#contact a img{
+    height: 50px;
+    width: 40px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+#contact .lce h4{
+    font-family: "Playwrite NL", cursive;;
+    color: #ae118f;
+}
+
+#contact .contact form{
+    padding-top: 10px;
+}
+
+#contact .contact form input{
+    padding-right: 30px;
+    border-radius: 8px;
+}
+
+#contact .contact form .input{
+    border-radius: 8px;
+}
+
+#contact .contact form textarea{
+    padding-right: 45px;
+    border-radius: 8px;
+}
+
+#contact .copyright .logo{
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact .p p{
+    text-align: center;
+    
+}
+
+#contact .copyright a span{
+    color: #ae118f;
+}
+
+#contact .copyright .lolita{
+    padding-top: 30px;
+}
+
+#contact .copyright p{
+    padding-top: 5px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
